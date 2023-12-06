@@ -1,13 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Montserrat:wght@100;200;300;900&family=Poppins:wght@100;200;300;400;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Montserrat:wght@100;200;300;900&family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;700;900&display=swap');
 
 :root {
   --ff-text: "Maven Pro", sans-serif;
   --ff-subTitle: "Montserrat", sans-serif;
   --ff-title: "Poppins", sans-serif;
+  --ff-text2: 'Open Sans', sans-serif;
 
   --azul: #1c2b47ff;
   --laranja: rgb(218, 105, 45);
   --amarelo: #f79d00ff;
+  --neutro: rgb(247, 224, 184);
 }
 
 * {
@@ -21,8 +23,8 @@ html {
 }
 
 body {
-  background-color: var(--azul);
-  color: #fff;
+    background-color: var(--azul);
+    color: #fff;
 }
 
 .bg{
@@ -62,15 +64,25 @@ section {
   padding: 4rem 0 0 0;
 }
 
+.sectionTitle{
+    font-size: 2rem;
+    font-family: var(--ff-title);
+}
+
 p {
   font-size: 16px;
 }
 
+
 .headerContainer {
-  color: var(--laranja);
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.headerContainer strong{
+    color: var(--laranja);
 }
 
 .logo {
@@ -153,6 +165,7 @@ p {
 
 form{
     background-color: rgba(0,0,0,0.4);
+    color: #fff;
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -180,6 +193,8 @@ form h2{
 form input{
     height: 2rem;
     width: 12rem;
+    border-radius: 10px;
+    padding: .5rem;
 }
 
 .btn{
@@ -199,6 +214,28 @@ form input{
     background-color: var(--amarelo);
     color: var(--azul);
 }
+
+.sobre{
+    background-color: var(--neutro);
+    color: var(--azul);
+      
+}
+
+.sobreText{
+    font-family: var(--ff-text2);
+    min-height: 50vh;
+    line-height: 1.8;  
+    padding: 2rem 0;
+    text-align: justify;
+}
+
+.sobre p{
+    text-indent: 3rem;
+    font-size: 1.5rem;
+
+}
+
+
 
 /* .heroSide{
     width: 50%;
