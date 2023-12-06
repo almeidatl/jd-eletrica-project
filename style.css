@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    background-color: var(--azul);
+    background-color: var(--neutro);
     color: #fff;
 }
 
@@ -40,9 +40,10 @@ body {
 
 header, .hero{
     background-color: rgba(28, 43, 71, 0.6);
-    
+
     backdrop-filter: blur(3px);
 }
+
 
 img {
   max-width: 100%;
@@ -50,7 +51,7 @@ img {
 }
 
 .wrapper {
-  max-width: 65vw;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
