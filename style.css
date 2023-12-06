@@ -192,6 +192,12 @@ form input{
     border-radius: 2rem;
     height: 2rem;
     cursor: pointer;
+    transition: all .3s ease;
+}
+
+.btn:hover{
+    background-color: var(--amarelo);
+    color: var(--azul);
 }
 
 /* .heroSide{
