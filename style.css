@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Montserrat:wght@100;200;300;900&family=Poppins:wght@100;200;300;400;700;900&display=swap");
+
+:root {
+  --ff-text: "Maven Pro", sans-serif;
+  --ff-subTitle: "Montserrat", sans-serif;
+  --ff-title: "Poppins", sans-serif;
+
+  --azul: #1c2b47ff;
+  --laranja: #d95c18ff;
+  --amarelo: #f79d00ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--azul);
+    color: #fff;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.wrapper {
+  max-width: 65vw;
+  margin: 0 auto;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    padding: 4rem 0 0 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+.headerContainer{
+    color: var(--laranja);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.logo{
+    font-family: var(--ff-title);
+    font-weight: 700;
+}
+
+.linksContainer{
+    font-family: var(--ff-title);
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--amarelo);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.linkNav{
+    text-decoration: none;
+    color: var(--laranja);
+    transition: all .3s ease;
+}
+
+.linkNav:hover {
+    color: var(--amarelo);
+}
+
+.linkItem{
+    transition: all .3s ease;
+}
+
+.linkItem:hover{
+    transform: scale(1.1);
+}
+
+.btnContato a{
+    background-color: var(--laranja);
+    color: var(--azul);
+    font-family: var(--ff-title);
+    padding: .5rem;
+    border-radius: 2rem;
+    transition: all .3s ease;
+}
+
+.btnContato > a:hover{
+    background-color: var(--amarelo);
+    color: var(--azul);
+}
+
+.heroContainer{
+    font-family: var(--ff-title);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: bet;
+}
+
+.heroContainer h2{
+    font-weight: 100;
+}
+
+.heroSide{
+    width: 50%;
+}
+
+.right{
+    width: 30%;
+}
+
+.left{
+    width: 70%;
+}
+
+.heroImg{
+    
+    border-radius: 50%;
+}

@@ -1,2 +1,0 @@
-# jd-eletrica-project
- 
