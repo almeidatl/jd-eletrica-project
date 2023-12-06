@@ -96,7 +96,7 @@ p {
 
 .linkNav {
   text-decoration: none;
-  color: var(--laranja);
+  color: #fff;
   transition: all 0.3s ease;
 }
 
@@ -115,7 +115,7 @@ p {
 
 .btnContato a {
   background-color: var(--laranja);
-  color: var(--azul);
+  color: #fff;
   font-family: var(--ff-title);
   padding: 0.5rem;
   border-radius: 2rem;
@@ -180,6 +180,18 @@ form h2{
 form input{
     height: 2rem;
     width: 12rem;
+}
+
+.btn{
+    font-family: var(--ff-text);
+    font-weight: 500;
+    font-size: 1.3rem;
+    background-color: var(--laranja);
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    height: 2rem;
+    cursor: pointer;
 }
 
 /* .heroSide{
