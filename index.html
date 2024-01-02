@@ -10,68 +10,33 @@
     <div class="bg">
       <header>
         <div class="wrapper">
-          <section class="headerContainer">
-            <h1 class="logo"><strong>JD</strong> Elétrica</h1>
+          <div class="headerContainer">
+            <h1 class="logo"><span id="jd">JD</span> Elétrica</h1>
             <nav class="navBar">
               <ul class="linksContainer">
-                <li class="linkItem">
+                <li class="listItem">
                   <a class="linkNav" href="#sobre">Sobre</a>
                 </li>
-                <li class="linkItem">
+                <li class="listItem">
                   <a class="linkNav" href="#servicos">Serviços</a>
                 </li>
-                <li class="btnContato">
-                  <a class="linkNav" href="#contato">Contato</a>
+                <li class="button">
+                  <a class="btn" href="#contato">Contato</a>
                 </li>
               </ul>
             </nav>
-          </section>
+          </div>
         </div>
       </header>
       <section class="hero">
         <div class="wrapper">
           <div class="heroContainer">
-            <div class="heroSide heroText">
+            <div class="heroText">
               <h1>Iluminando Caminhos</h1>
-              <h2>Transformando Espaços</h2>
+              <h1>Transformando Espaços</h1>
               <h1>
                 Seu <strong>Futuro</strong>, Nossa <strong>Energia</strong>!
               </h1>
-            </div>
-            <div class="form">
-              <form action="">
-                <h2>Entre em contato</h2>
-                <div class="formItem">
-                  <label for="nome">Nome</label>
-                  <input
-                    type="text"
-                    id="nome"
-                    name="nome"
-                    placeholder="Nome Completo"
-                    required
-                  />
-                </div>
-                <div class="formItem">
-                  <label for="email">E-mail</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="exemplo@gmail.com"
-                  />
-                </div>
-                <div class="formItem">
-                  <label for="celular">Contato</label>
-                  <input
-                    type="text"
-                    name="celular"
-                    id="celular"
-                    placeholder="(0xx) 99999-9999"
-                    required
-                  />
-                </div>
-                <button type="submit" class="btn">Enviar</button>
-              </form>
             </div>
           </div>
         </div>
@@ -79,52 +44,82 @@
     </div>
 
     <main>
-      <section id="sobre" class="sobre">
+      <div class="sectionBg">
         <div class="wrapper">
-          <h2 class="sectionTitle">Sobre nós</h2>
-          <div class="sobreText">
-            <p>
-              Bem-vindo à <strong>JD Elétrica</strong>, onde a nossa paixão pela
-              eletricidade se traduz em soluções inovadoras para iluminar seu
-              caminho. Desde o início, temos dedicado nossa expertise a serviços
-              elétricos de excelência, proporcionando segurança, eficiência e
-              modernidade a residências e negócios.
-            </p>
+          <section id="sobre" class="sobre">
+            <h2 class="title">Quem é a JD?</h2>
+            <div class="sobreContent">
+              <div class="sobreText">
+                <p>
+                  Bem-vindo à <strong>JD Elétrica</strong>, onde a nossa paixão
+                  pela eletricidade se traduz em soluções inovadoras para
+                  iluminar seu caminho. Desde o início, dedicamos nossa
+                  expertise em serviços elétricos de excelência, proporcionando
+                  segurança, eficiência e modernidade a residências e negócios.
+                </p>
+                <p>
+                  Não somos apenas especialistas em eletricidade, transformamos
+                  simples instalações em experiências que elevam a vida
+                  cotidiana. Seja para
+                  <strong>instalações residenciais</strong>,
+                  <strong>automação comercial</strong> ou projetos de
+                  <strong>eficiência energética</strong>, estamos aqui para
+                  energizar sua jornada.
+                </p>
+              </div>
 
-            <p>
-              Somos uma equipe comprometida de profissionais altamente
-              qualificados, unidos pela missão de superar expectativas e criar
-              ambientes vibrantes e seguros. Com anos de experiência no mercado,
-              construímos uma reputação baseada na confiança e na entrega de
-              serviços que vão além do convencional.
-            </p>
-
-            <p>
-              Nosso compromisso com a inovação reflete-se não apenas na
-              qualidade técnica de nossos serviços, mas também em nossa
-              abordagem personalizada. Cada projeto é tratado com atenção única,
-              garantindo soluções adaptadas às necessidades específicas de cada
-              cliente.
-            </p>
-
-            <p>
-              Na <strong>JD</strong>, não somos apenas especialistas em
-              eletricidade; somos facilitadores de conexões, transformando
-              simples instalações em experiências que elevam a vida cotidiana.
-              Seja para instalações residenciais, automação comercial ou
-              projetos de eficiência energética, estamos aqui para energizar sua
-              jornada.
-            </p>
-
-            <p>
-              Junte-se a nós na busca por um futuro mais iluminado. Sua visão é
-              nossa missão, e estamos prontos para fazer parte do seu próximo
-              projeto elétrico. Confie na <strong>JD</strong> para trazer a
-              energia que você precisa.
-            </p>
-          </div>
+              <div class="sobreImg"></div>
+            </div>
+          </section>
         </div>
-      </section>
+      </div>
+
+      <div class="sectionBg">
+        <div class="wrapper">
+          <section class="services" id="services">
+            <h2 class="title">Serviços</h2>
+            <div class="servicesContent">
+              <div class="serviceCard center">Serviço oferecido</div>
+              <div class="serviceCard center">Serviço oferecido</div>
+              <div class="serviceCard center">Serviço oferecido</div>
+              <div class="serviceCard center">Serviço oferecido</div>
+              <div class="serviceCard center">Serviço oferecido</div>
+              <div class="serviceCard center">Serviço oferecido</div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="sectionBg">
+        <div class="wrapper">
+          <section class="call" id="call">
+            <h2 class="title">Call</h2>
+              <div class="callContent">
+                <p>
+                  Sua visão é nossa missão, e estamos prontos para fazer parte do seu
+                  próximo projeto!
+                </p>
+                
+                <form action="">
+                  <input type="text" name="nome" id="nome" placeholder="Nome">
+                  <input type="number" name="telefone" id="telefone" placeholder="(0xx) XXXXX-XXXX">
+                  <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+                  <button type="submit">Enviar</button>
+                </form>
+
+              </div>
+            </section>
+        </div>
+      </div>
+
     </main>
+
+    <footer>
+      <div class="wrapper">
+        <div class="footerContent">
+
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
