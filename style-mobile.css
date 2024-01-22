@@ -1,50 +1,48 @@
-@media (max-width: 1200px){
-    .wrapper{
-        max-width: 90%;
-        margin: 0 auto;
-    }
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+  }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
+  nav {
+    opacity: 0;
+  }
 
-    nav{
-        opacity: 0;
-    }
+  .menuMobileBtn {
+    opacity: 1;
+  }
 
-    .menuMobileBtn{
-        opacity: 1;
-    }
+  .heroContainer {
+    font-size: 1.8rem;
+  }
 
-    .heroContainer{
-        font-size: 1.8rem;
-    }
+  .servicesContent {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
 
-    .servicesContent{
-        display: grid;
-        place-items: center;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-      }
-      
-      .sobreContent{
-        flex-direction: column-reverse;
-      }
+  .sobreContent {
+    flex-direction: column-reverse;
+  }
 
-      .sobreText{
-        width: 100%;
-      }
+  .sobreText {
+    width: 100%;
+  }
 
-      .sobreImg {
-        width: 100%;
-        height: 500px;
-        border-radius: 1rem;
-        background-image: url(assets/fios.jpg);
-        background-size: cover;
-      }
+  .sobreImg {
+    width: 100%;
+    height: 500px;
+    border-radius: 1rem;
+    background-image: url(assets/fios.jpg);
+    background-size: cover;
+  }
 }
 
-@media (max-width: 670px){
-
+@media (max-width: 670px) {
   .bg {
     background-attachment: scroll;
     background-image: url(assets/eletricista-P.png);
@@ -53,67 +51,74 @@
     background-position: bottom;
     width: 100%;
   }
-    .servicesContent{
-        display: grid;
-        place-items: center;
-        grid-template-columns: 1fr;
-        gap: 0rem;
-      }
 
-      .serviceCard{
-        width: 100%;
-        padding: 1rem 0;
-        min-height: 250px;
-      }
+  .serviceBg {
+    background-image: url(assets/eletricistapexel.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .servicesContent {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 0rem;
+  }
 
-      .callContent{
-        flex-direction: column;
-      }
+  .serviceCard {
+    width: 100%;
+    padding: 1rem 0;
+    min-height: 250px;
+  }
 
-      .callContent p{
-        width: 90%;
-        text-align: center;
-      }
+  .callContent {
+    flex-direction: column;
+  }
 
-      form{
-        width: 100%;
-      }
+  .callContent p {
+    width: 90%;
+    text-align: center;
+  }
+
+  form {
+    width: 100%;
+  }
 }
 
-@media (max-width:450px){
+@media (max-width: 450px) {
+  html {
+    font-size: 12px;
+  }
 
-    html{
-        font-size: 12px ;
-    }
+  .heroContainer {
+    font-size: 1.5rem;
+  }
 
-    .heroContainer{
-      font-size: 1.5rem;
-    }
-    
-    .serviceCard{
-        padding: 0;
-    }
-    .servicesContent{
-        display: grid;
-        place-items: center;
-        grid-template-columns: 1fr;
-        gap: 0rem;
-      }
+  .serviceCard {
+    padding: 0;
+  }
+  .servicesContent {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    gap: 0rem;
+  }
 
-      .serviceCard{
-        width: 100%;
-        min-height: 200px;
-      }
+  .serviceCard {
+    width: 100%;
+    min-height: 200px;
+  }
 
-      .callContent{
-        flex-direction: column;
-      }
+  .callContent {
+    flex-direction: column;
+  }
 
-      .callContent p{
-        font-size: 1.5rem;
-      }
+  .callContent p {
+    font-size: 1.5rem;
+  }
 
-      form{
-        width: 100%;
-      }
+  form {
+    width: 100%;
+  }
 }
