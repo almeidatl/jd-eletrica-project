@@ -44,6 +44,8 @@
 }
 
 @media (max-width: 670px){
+
+    
     .servicesContent{
         display: grid;
         place-items: center;
@@ -74,7 +76,11 @@
 @media (max-width:450px){
 
     html{
-        font-size: 14px ;
+        font-size: 12px ;
+    }
+
+    .heroContainer{
+      font-size: 1.5rem;
     }
     
     .serviceCard{
