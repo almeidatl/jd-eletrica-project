@@ -4,3 +4,50 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 1000px){
+
+    .heroContainer{
+        font-size: 1.8rem;
+    }
+
+    .servicesContent{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+      
+      .sobreContent{
+        flex-direction: column-reverse;
+      }
+
+      .sobreText{
+        width: 100%;
+      }
+
+      .sobreImg {
+        width: 100%;
+        height: 500px;
+        border-radius: 1rem;
+        background-image: url(assets/fios.jpg);
+        background-size: cover;
+      }
+}
+
+@media (max-width: 670px){
+    .servicesContent{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
+
+      .serviceCard{
+        width: 200px;
+      }
+
+      .callContent{
+        flex-direction: column;
+      }
+}
