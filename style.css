@@ -80,6 +80,7 @@ section {
 
 .title {
   font-size: 2rem;
+  margin-top: ;
   margin-bottom: 4rem;
   font-family: var(--ff-title);
   color: var(--laranja);
@@ -228,7 +229,29 @@ strong {
   background-size: cover;
 }
 
+.bgTransp{
+  background-color: #4b5c6bd3;
+
+}
+
+.serviceBg{  
+  background-image: url(assets/eletricistapexel.jpg);
+  background-repeat: no-repeat;  
+  background-position: center;
+  background-size: cover;
+
+}
+
+.services{
+  padding-top: 2rem;
+}
+
+.services h2{
+  color: var(--amarelo);
+}
+
 .servicesContent{
+  color: var(--neutro);
   display: grid;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
@@ -236,25 +259,64 @@ strong {
 }
 
 .serviceCard{
+  backdrop-filter: blur(5px);
   width: 300px;
-  height: 200px;
+  min-height: 350px;
+  padding: 2rem 1rem;
+  display: flex;
+  box-shadow: 0px 0px 8px #00000042;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
 
-  border: 1px solid var(--musgo);
-  border-radius: 10px;
+.serviceCardTitle{
+  font-size: 1.5rem;
+}
+
+.serviceCard p{
+  font-size: 1.2rem;
 }
 
 .callContent{
-  display: grid;
-  place-items: center;
-  grid-template-columns: 1fr 1fr;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .callContent p{
   font-size: 2rem;
   font-weight: 700;
+  width: 50%;
 }
 
 form{
-  width: 70%;
+  padding-top: 2rem;
+  gap: 1rem;
+  width: 50%;
   display: grid;
+}
+
+form input, textarea{
+  padding: .5rem;
+  font-size: 1rem;
+}
+
+.btn{
+  cursor: pointer;
+}
+
+
+.footerBg{
+  background-color: var(--cina-azul);
+  color: var(--neutro);
+}
+
+.footerContent{
+  min-height: 20vh;
+  font-family: var(--ff-text2);
+  padding: 2rem;
+  
 }
