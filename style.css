@@ -267,8 +267,7 @@ strong {
   display: flex;
   /* box-shadow: 0px 0px 8px #00000042; */
   flex-direction: column;
-  justify-content: space-between;
-  
+  gap: 1rem;  
 }
 
 .serviceCardTitle{
@@ -316,7 +315,7 @@ form input, textarea{
 }
 
 .footerContent{
-  min-height: 20vh;
+  min-height: 17vh;
   font-family: var(--ff-text2);
   padding: 2rem;
   

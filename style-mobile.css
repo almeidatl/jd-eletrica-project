@@ -39,15 +39,59 @@
     .servicesContent{
         display: grid;
         place-items: center;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr;
+        gap: 0rem;
       }
 
       .serviceCard{
-        width: 200px;
+        width: 100%;
+        padding: 1rem 0;
+        min-height: 250px;
       }
 
       .callContent{
         flex-direction: column;
+      }
+
+      .callContent p{
+        width: 90%;
+        text-align: center;
+      }
+
+      form{
+        width: 100%;
+      }
+}
+
+@media (max-width:450px){
+
+    html{
+        font-size: 14px;
+    }
+    .serviceCard{
+        padding: 0;
+    }
+    .servicesContent{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr;
+        gap: 0rem;
+      }
+
+      .serviceCard{
+        width: 100%;
+        min-height: 200px;
+      }
+
+      .callContent{
+        flex-direction: column;
+      }
+
+      .callContent p{
+        font-size: 1.5rem;
+      }
+
+      form{
+        width: 100%;
       }
 }
