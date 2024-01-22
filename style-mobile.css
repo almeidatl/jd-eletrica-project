@@ -50,9 +50,8 @@
     background-image: url(assets/eletricista-P.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     width: 100%;
-    height: fit-content;
   }
     .servicesContent{
         display: grid;
