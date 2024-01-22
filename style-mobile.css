@@ -46,6 +46,7 @@
 @media (max-width: 670px){
 
   .bg {
+    background-attachment: scroll;
     background-image: url(assets/eletricista-P.png);
     background-size: cover;
     background-repeat: no-repeat;
