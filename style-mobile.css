@@ -7,6 +7,14 @@
 
 @media (max-width: 1000px){
 
+    nav{
+        opacity: 0;
+    }
+
+    .menuMobileBtn{
+        opacity: 1;
+    }
+
     .heroContainer{
         font-size: 1.8rem;
     }
@@ -66,8 +74,9 @@
 @media (max-width:450px){
 
     html{
-        font-size: 14px;
+        font-size: 14px ;
     }
+    
     .serviceCard{
         padding: 0;
     }
