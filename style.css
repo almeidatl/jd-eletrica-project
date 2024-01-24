@@ -105,7 +105,7 @@ section {
 }
 
 nav{
-  opacity: 1;
+display: block;
 }
 
 .linksContainer {
@@ -175,13 +175,27 @@ nav{
   color: var(--neutro);
 }
 
-.menuMobileBtn{
-  position: absolute;
+
+
+.menuIcon{  
+  height: 30px;
+  top: 4rem;
   right: 4rem;
-  opacity: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
   cursor: pointer;
-  z-index: 10;
+  
 }
+
+.line{
+  width: 30px;
+  border: 1px solid white;
+}
+
+
+/* CRIAR TELA MENU MOBILE */
+
 
 
 

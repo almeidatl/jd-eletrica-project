@@ -7,11 +7,17 @@
 
 @media (max-width: 1000px) {
   nav {
-    opacity: 0;
+    display: none;
   }
 
-  .menuMobileBtn {
-    opacity: 1;
+  .menuIcon {
+    height: 30px;
+    top: 1rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
   }
 
   .heroContainer {
