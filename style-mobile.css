@@ -97,6 +97,11 @@
     font-size: 12px;
   }
 
+  .logo img {
+    width: 80px;
+  
+  }
+
   .heroContainer {
     font-size: 1.5rem;
   }
